@@ -1,0 +1,96 @@
+*{
+ margin: 0px;
+}
+
+body{
+  background-image: url('../img/woman/guide4.png');
+  padding: 0px;
+  margin: 0px;
+  background-color: grey;
+  height: 100vh;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+  }
+
+  .imageContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image {
+    margin: 10% 10% 0 10%;
+    width: 25%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image>a>img {
+    width: 100%;
+    transition: all 1s ease-in-out;
+  }
+
+  .image>a>img:hover{
+    transform: scale(1.5);
+  }
+
+  .button{
+    bottom: 3%;
+    position: absolute;
+    z-index: 999;
+  }
+.title{
+  font-family: 'Futura', sans-serif;
+  font-size:60px;
+  color:white;
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  font-weight: 600;
+}
+
+.button{
+  font-family: 'Futura', sans-serif;
+  font-size:3rem;
+  font-weight: 400;
+  color:white;
+}
+
+/* .button:nth-of-type(2){
+  position:absolute;
+  top: 85%;
+  left:20%;
+} */
+
+/* .button:nth-of-type(3){
+  position:absolute;
+  top:85%;
+  left:68%
+} */
+
+.image>img{
+  width: 400px;
+  transition: all 1s ease-in-out;
+}
+
+.image:hover>img{
+  transform:scale(1.5);
+}
+
+/* .image:nth-of-type(1)>img{
+  position:absolute;
+  top: 30%;
+  left:15%;
+}
+
+.image:nth-of-type(2)>img{
+  position:absolute;
+  top: 30%;
+  left: 60%;
+} */

@@ -1,0 +1,108 @@
+
+body {
+  padding: 0px;
+  margin: 0px;
+background-color: grey;
+/* background-image: url('../background/test.png'); */
+height: 100vh;
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.guide-breasts {
+  z-index: 999;
+  position: absolute;
+  overflow: hidden;
+  bottom: 5%;
+  left:75%;
+  padding: 25px;
+  width: 240px;
+  height: 220px;
+  background-image: url('../img/woman/guide.png');
+}
+
+.guide-breasts>p{
+  margin: 10px;
+  font-family:  'Futura', sans-serif;
+  color: white;
+}
+
+.guide-breasts>p:nth-of-type(1) {
+  font-size: 40px;
+}
+
+.guide-buttocks {
+  z-index:1000;
+  position: absolute;
+  overflow: hidden;
+  bottom:40%;
+  left:80%;
+  padding:25px;
+  width: 240px;
+  height: 200px;
+  background-image: url('../img/woman/guide2.png');
+}
+
+.guide-buttocks>p{
+  margin: 10px;
+  font-family:  'Futura', sans-serif;
+  color: white;
+}
+
+.guide-buttocks>p:nth-of-type(1) {
+  font-size: 40px;
+}
+
+.guide-muscle {
+  z-index:1001;
+  position: absolute;
+  overflow: hidden;
+  bottom:5%;
+  left:50%;
+  padding:25px;
+  width: 240px;
+  height: 220px;
+  background-image: url('../img/woman/guide3.png');
+}
+
+.guide-muscle>p{
+  margin: 10px;
+  font-family:  'Futura', sans-serif;
+  color: white;
+}
+
+.guide-muscle>p:nth-of-type(1) {
+  font-size: 40px;
+}
+
+.guide-perfect {
+  z-index:1001;
+  position: absolute;
+  overflow: hidden;
+  top:70%;
+  left:82%;
+  padding:25px;
+  width: 240px;
+  height: 180px;
+  background-image: url('../img/woman/guide4.png');
+}
+
+.guide-perfect>p{
+  margin: 10px;
+  font-family: 'Futura', sans-serif;
+  color: white;
+}
+
+.guide-perfect>p:nth-of-type(1) {
+  font-size: 40px;
+}
