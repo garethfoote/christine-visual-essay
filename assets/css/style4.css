@@ -1,128 +1,202 @@
-*{
-  margin: 0px;
+* {
+margin: 0px;
+margin-bottom: 20px;
 }
 
-body {
-  background-image: url('../img/woman/guide2.png');
-  padding: 0px;
-  margin: 0px;
-  background-color: grey;
-  height: 100vh;
-  background-position: center;
-  background-size:cover;
-  background-repeat: no-repeat;
-  position: relative;
+body{
+background-color: grey;
+background-image: url(../img/research/background-img.png);
+width: 100vw;
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+overflow: scroll;
 }
 
-h3 {
-  position:absolute;
-  z-index: 9999;
+h1:nth-child(2){
+font-family: 'Futura', sans-serif;
+font-size: 50px;
+color: white;
+top: 0;
+left: 50;
+position: absolute;
+}
+
+h1:nth-child(3){
+font-family: 'Futura', sans-serif;
+font-size: 50px;
+color: white;
+top: 5%;
+left: 0;
+position: absolute;
+}
+
+h1:nth-child(4){
+font-family: 'Futura', sans-serif;
+font-size: 50px;
+color: white;
+top: 10%;
+left: 0;
+position: absolute;
+}
+
+h1:nth-child(5){
+font-family: 'Futura', sans-serif;
+font-size: 50px;
+color: white;
+top: 15%;
+right: 0;
+position: absolute;
+}
+
+h1:nth-child(6){
+font-family: 'Futura', sans-serif;
+font-size: 50px;
+color: white;
+top: 20%;
+right: 0;
+position: absolute;
+}
+
+h1:nth-child(7){
+font-family: 'Futura', sans-serif;
+font-size: 50px;
+color: white;
+top: 25%;
+right: 0;
+position: absolute;
+}
+
+.container{
+  position: absolute;
+  width: 700px;
+  height: 1000px;
+  top: 40vh;
+  left: 5vw;
+  text-align: center;
+  align-items: center;
   font-family: 'Futura', sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
   color: white;
-  top: 6%;
-  left: 30%;
 }
 
-#container{
-  z-index:999;
+.inside{
+  font-size: 20px;
+  position: absolute;
+  width:500px;
+  height: 400px;
+  top: 700px;
+  left: 100px;
+  right: 100px;
+  text-align: center;
+  display: inline-block;
+}
+
+.inside1{
+  font-size: 20px;
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  top: 190px;
+  left: 100px;
+}
+
+
+h2:nth-child(1){
+  font-family: 'Futura', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+}
+
+h2:nth-child(2){
+  font-family: 'Futura', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 3%;
+}
+
+h2:nth-child(3){
+  font-family: 'Futura', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+}
+
+h2:nth-child(4){
+  font-family: 'Futura', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+}
+
+#img1 {
+  position: abolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.container1{
+  position: absolute;
+  height: 1000px;
+  top: 40vh;
+  left: 50vw;
+  /* outline: black solid 2px; */
+  width: 550px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.item {
+  position: absolute;
   width: 500px;
-  height: 300px;
-  /* outline: 5px solid blue; */
-  cursor: pointer;
+  top: 0px;
 }
 
-p{
-  z-index:1000;
-  background-color: #454545;
-  position:absolute;
+.item1 {
+  position: absolute;
+  width: 500px;
+  top: 280px;
+}
+
+.item2 {
+  position: absolute;
+  width: 500px;
+  top: 640px
+}
+
+.point2{
+  position: absolute;
+  height: 600px;
+  width: 400px;
+  top: 80vh;
+  left: 10vw;
   font-family: 'Futura', sans-serif;
   font-size: 20px;
-  color: white;
-  width: 400px;
-  height: 100px;
-  padding:20px;
   text-align: center;
-  background-image: url('../img/woman/guide4.png')
-  /* display:none;
-  pointer-events:none; */
+  color: white;
+  overflow: hidden;
 }
-#num1 {
-  z-index:1000;
-  background-color: #454545;
+
+.secondtitle{
   position:absolute;
+  width: 400px;
+  height: 700px;
+  top: 1500px;
+  left: 100px;
   font-family: 'Futura', sans-serif;
-  font-size: 20px;
-  color: white;
-  width: 400px;
-  height: 100px;
-  padding:20px;
-  text-align: center;
-  background-image: url('../img/woman/guide4.png')
-  top:0%;
-  right:0%;
-  width: 400px;
-  height: 100px;
-}
-
-#num2{
-  z-index:1000;
-  background-color: #454545;
-  position:absolute;
-  font-family: 'Futura', sans-serif;
-  font-size: 20px;
-  color: white;
-  width: 400px;
-  height: 100px;
-  padding:20px;
-  text-align: center;
-  background-image: url('../img/woman/guide4.png')
-  top: 0%;
-  left:0%;
-}
-
-/* p:hover{
-  display: show;
-} */
-
-.MagicScroll{
-  z-index:0;
-  height: 100vh;
-  transition: all 1s ease-in-out;
-}
-
-.MagicScroll>div:nth-of-type(1) {
-  visibility: hidden !important;
-}
-
-.MagicScroll>span {
-  visibility: hidden !important;
-}
-
-.img {
-  position:relative;
-  transition: all 1s ease-in-out;
-}
-
-.img:hover {
-  transform: scale(2);
-}
-
-.img:nth-child(3n+1){
-  position: relative;
-  width:30%;
-}
-
-.img:nth-child(3n+2){
-  position: relative;
-  width: 20%;
-}
-
-.img:nth-child(3n+3){
-  position: relative;
-  width:30%;
 }

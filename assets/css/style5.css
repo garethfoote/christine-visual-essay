@@ -1,0 +1,226 @@
+* {
+margin: 0px;
+margin-bottom: 20px;
+}
+
+body{
+background-color: #454445;
+}
+
+h1{
+  font-family: 'Gilroy', sans-serif;
+  font-size: 135px;
+  text-align: center;
+  margin-bottom: -5px;
+  color: white;
+  text-shadow: 10px 10px 6px #3655F5;
+}
+
+.paragraph1{
+  position:absolute;
+  top: 400px;
+  left: 150px;
+  width: 650px;
+  height: 400px;
+  font-family: 'Futura', sans-serif;
+  font-size: 40px;
+  line-height: 70px;
+  color: white;
+  background-color: none;
+  /* text-shadow: 30px 30px 6px #3655F5; */
+}
+
+.stylebox1{
+  position: absolute;
+  top: 485px;
+  left: 250px;
+  width: 570px;
+  height: 440px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #3655F5;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.images1{
+  position: absolute;
+  top: 1000px;
+  left: 50px;
+  width: 650px;
+}
+
+.paragraph2{
+  position:absolute;
+  top: 1140px;
+  left: 1150px;
+  width: 450px;
+  height: 400px;
+  font-family: 'Futura', sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+}
+
+.paragraph3{
+  position:absolute;
+  top: 1850px;
+  left: 1150px;
+  width: 450px;
+  height: 400px;
+  font-family: 'Futura', sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+}
+
+.paragraph4{
+  position:absolute;
+  top: 2420px;
+  left: 1150px;
+  width: 450px;
+  height: 400px;
+  font-family: 'Futura', sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+}
+
+.paragraph5{
+  position:absolute;
+  top: 3600px;
+  left: 200px;
+  width: 500px;
+  height: 400px;
+  font-family: 'Futura', sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+}
+
+.paragraph6{
+  position:absolute;
+  top: 4100px;
+  left: 200px;
+  width: 500px;
+  height: 400px;
+  font-family: 'Futura', sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+}
+
+.images2{
+  position:absolute;
+  top: 3200px;
+  left: 850px;
+}
+
+.title2{
+  position: absolute;
+  top: 4850px;
+  left: 100px;
+  width: 1000px;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 100px;
+  color: white;
+  text-align:left;
+}
+
+.paragraph7{
+  position: absolute;
+  top: 5200px;
+  left: 100px;
+  width: 1500px;
+  font-family: 'Futura', sans-serif;
+  font-size: 60px;
+  line-height: 100px;
+  color: white;
+}
+
+.images3{
+  position: absolute;
+  top: 5850px;
+  left: 500px;
+}
+
+.paragraph8{
+  position:absolute;
+  top: 7750px;
+  left: 100px;
+  width: 1500px;
+  font-family: 'Futura', sans-serif;
+  font-size: 60px;
+  line-height: 100px;
+  color: white;
+}
+
+.images4{
+  position:absolute;
+  top: 8120px;
+  left: 430px;
+}
+
+.title3{
+  position:absolute;
+  top: 9100px;
+  right: 100px;
+  width: 1500px;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 100px;
+  color: white;
+  text-align: right;
+}
+
+.movie1{
+  position:absolute;
+  top: 9500px;
+  left: 200px;
+  width: 1500px;
+}
+
+.movie2{
+  position:absolute;
+  top: 9500px;
+  left: 900px;
+  width: 1500px;
+}
+
+.movie3{
+  position:absolute;
+  top: 9900px;
+  left: 185px;
+}
+
+.paragraph9{
+  position:absolute;
+  top: 10700px;
+  left: 50px;
+  width: 1500px;
+  font-family: 'Futura', sans-serif;
+  font-size: 60px;
+  line-height: 120px;
+  color: white;
+}
+
+.paragraph10{
+  position:absolute;
+  top: 11800px;
+  left: 50px;
+  width: 1500px;
+  font-family: 'Futura', sans-serif;
+  font-size: 60px;
+  line-height: 120px;
+  color: white;
+}
+
+.back{
+  position:absolute;
+  top: 13100px;
+  left: 650px;
+  width: 1500px
+  font-family: 'Furuta', sans-serif;
+  font-size: 30px;
+  color:white;
+  text-align: center;
+}

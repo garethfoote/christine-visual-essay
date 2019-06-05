@@ -492,7 +492,7 @@ function draw(){
       text('next', 1000, 750);
     }
     if (m == 5 && p== 3) {
-      image(perfect3, 0, -200, perfect3.width/2.8, perfect3.height/2.8);
+      image(muscle4, 0, -200, muscle4.width/2.8, muscle4.height/2.8);
       fill(68,68,68);
       rect(150,200,600,600);
       fill(255);
